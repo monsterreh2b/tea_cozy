@@ -1,0 +1,173 @@
+    body {
+        font-family: Helvetica;
+        font-size: 22px;
+        color: seashell;
+        background-color: black;
+        opacity: 0.9;
+    }
+    
+    .navbar {
+        position: fixed;
+        z-index: 5;
+        top: 0;
+        height: 69px;
+        width: 100%;
+        /* background-color: dodgerblue; */
+        /* border: 5px solid red; */
+        /* background-color: aqua; */
+        display: block;
+        border-bottom: 1px solid seashell;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .top-left {
+        /* border: 1px solid red; */
+    }
+    
+    #logo {
+        height: 50px;
+        margin-left: 10px;
+    }
+    
+    .top-right {
+        width: 25%;
+        /* border: 1px solid yellow; */
+        text-decoration: underline;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-right: 10px;
+    }
+    
+    .top-right a {
+        color: seashell;
+    }
+    
+    .banner-wrap {}
+    
+    .banner {
+        width: 1200px;
+        height: 700px;
+        margin: auto;
+        /* border: 3px solid green; */
+        background: url('../images/img-mission-background.jpg')no-repeat center center;
+        margin-top: 70px;
+        align: center;
+        position: static;
+    }
+    
+    .banner-words {
+        width: 100%;
+        height: 110px;
+        background-color: black;
+        position: relative;
+        top: 40%;
+    }
+    
+    .centered-words {
+        text-align: center;
+    }
+    
+    .banner-words h2 {
+        position: relative;
+        top: 10px;
+    }
+    
+    .banner-words-two {
+        width: 100%;
+        height: 110px;
+        background-color: black;
+        margin-top: 70px;
+    }
+    
+    .top {
+        width: 1000px;
+        height: 235px;
+        margin: 0 auto;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    
+    .teas {
+        width: 302px;
+        height: 202px;
+        /* background-color: red; */
+    }
+    
+    .teas p {
+        text-align: center;
+        position: relative;
+        bottom: 21px;
+    }
+    
+    .bottom {
+        width: 650px;
+        height: 235px;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-around;
+    }
+    
+    .loc-banner {
+        width: 1200px;
+        height: 510px;
+        background-color: dodgerblue;
+        margin: auto;
+        /* border: 3px solid green; */
+        background: url('../images/img-locations-background.jpg')no-repeat center center;
+        ;
+        margin-top: 70px;
+        align: center;
+        position: static;
+    }
+    
+    .location-words h2 {
+        position: relative;
+        top: 55px;
+    }
+    
+    .three-loc {
+        width: 1000px;
+        height: 302px;
+        /* background-color: dodgerblue; */
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        top: 7%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .teas-two {
+        width: 300px;
+        height: 300px;
+        background-color: black;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    #opacity {
+        opacity: 0.5;
+    }
+    
+    .bottom-bottom {
+        width: 100%;
+        height: 200px;
+        background-color: black;
+        margin-top: 120px;
+    }
+    
+    .footer {
+        text-align: left;
+        margin-left: 20px;
+    }
